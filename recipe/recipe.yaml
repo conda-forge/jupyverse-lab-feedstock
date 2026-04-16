@@ -24,6 +24,7 @@ requirements:
     - uv-build
   run:
     - python >=${{ python_min }}
+    - anyio
     - fastapi-core
     - fps
     - jupyverse-api >=0.15.0,<0.16.0
