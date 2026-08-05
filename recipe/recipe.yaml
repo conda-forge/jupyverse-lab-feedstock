@@ -1,7 +1,7 @@
 schema_version: 1
 
 context:
-  version: "0.3.0"
+  version: "0.3.1"
 
 package:
   name: jupyverse-lab
@@ -9,7 +9,7 @@ package:
 
 source:
   - url: https://pypi.org/packages/source/j/jupyverse-lab/jupyverse_lab-${{ version }}.tar.gz
-    sha256: b4f8ffdaa03ec11d3243f38d8b3532873bd1d9331bc7fbea94db3c985f734b67
+    sha256: 145f0eebcf39380fb7d809c9ae43ec4ed75b34d13430dd2b700879ea996f9c44
 
 build:
   noarch: python
